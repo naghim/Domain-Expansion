@@ -1,0 +1,9 @@
+[package]
+name = "domain-expansion"
+version = "0.1.0"
+authors = ["Naghi Mirtill Boglárka <mirtill@naghi.me>"]
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.12", features = ["blocking", "json"] }
+serde = { version = "1.0", features = ["derive"] }
